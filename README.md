@@ -60,5 +60,6 @@ python manage.py runserver
 
 
 ## Conclusions
-My intention with this project, besides learning how to implement CRUD functionality and user authentication, was to explore how far Python can be taken as a tool for web development. I also wanted to understand the fundamentals of frontend development, so that I can use more complex tools in future projects. As a next step, I could use FastAPI to work with APIs and JSON, as well as learn how to implement automated tests for the application.
+This is a full-stack web application built with Django, with a primary focus on understanding back-end development. It implements a task manager with full CRUD functionality and user authentication.
 
+The project is designed to demonstrate the complete back-end development lifecycle: data modeling, views, forms, authentication, and deployment, while also covering the fundamentals of frontend development.
