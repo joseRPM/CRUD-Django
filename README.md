@@ -6,26 +6,27 @@ It implements a task manager with full CRUD functionality and user authenticatio
 **Deploy:** [django-auth-crud-hp0v.onrender.com](https://django-auth-crud-hp0v.onrender.com)
 
 
-## Funcionalidades
+## Functions
 
-- CRUD completo de tareas (crear, leer, actualizar, eliminar)
-- Autenticación de usuarios (registro, login, logout)
-- Protección de rutas según estado de sesión
-- Filtro de tareas por estado (pendientes / completadas)
-- Interfaz estilizada con Bootstrap 5
-- Deploy en producción con Render + WhiteNoise + Gunicorn
+- Full CRUD functionality for tasks (create, read, update, delete)
+- User authentication (registration, login, logout)
+- Route protection based on session status
+- Task filtering by status (pending / completed)
+- Styled interface with Bootstrap 5
+- Production deployment with Render + WhiteNoise + Gunicorn
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python_3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django_6.0.6-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
-![WhiteNoise](https://img.shields.io/badge/WhiteNoise-000000?style=for-the-badge)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
-## Estructura del proyecto
+![Python](https://img.shields.io/badge/Python_3.14-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django_6.0.6-092E20?style=flat&logo=django&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat&logo=gunicorn&logoColor=white)
+![WhiteNoise](https://img.shields.io/badge/WhiteNoise-000000?style=flat)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+
+## Project structure
 
 ```
 django/
@@ -45,7 +46,7 @@ django/
 
 ---
 
-## Instalación local
+## Local installation
 
 ```bash
 git clone https://github.com/joseRPM/Developer
@@ -57,8 +58,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
----
 
-## Estado
+## Conclusions
+My intention with this project, besides learning how to implement CRUD functionality and user authentication, was to explore how far Python can be taken as a tool for web development. I also wanted to understand the fundamentals of frontend development, so that I can use more complex tools in future projects. As a next step, I could use FastAPI to work with APIs and JSON, as well as learn how to implement automated tests for the application.
 
- Deployado en producción
