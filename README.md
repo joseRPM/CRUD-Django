@@ -1,4 +1,4 @@
-# Django CRUD con Autenticación
+# Django CRUD with Authentication
 
 This is a full-stack web application built with Django, focused primarily on understanding back-end development. 
 It implements a task manager with full CRUD functionality and user authentication.
